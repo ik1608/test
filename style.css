@@ -1,0 +1,121 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.full{
+    display: flex;
+    align-items:center;
+    height: 70px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;  
+    overflow: hidden;  
+    list-style-type:none;
+}
+.points{
+    margin-right: 35px;
+    text-decoration:none; 
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 90px;
+    width: 1200px; 
+}
+.points a{
+    text-decoration: none;
+    color:black;
+}
+.order{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    align-items: center;
+}
+.menu12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 125px;
+}
+h1{
+    font-size: 2.5rem;
+font-weight: lighter;
+margin-left: 650px;
+}
+.img{
+    border: none;
+  color: black;
+  padding: 2px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+    background-color: sandybrown;
+    color: whitesmoke;
+    /*align-items: flex-start;*/
+}
+body{
+    margin: 0px 0px;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    width: 619px;
+    padding-left: 75px;
+}
+.main-background{
+    background-color:rgb(253, 252, 252);
+    display: flex;
+    align-items: center;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 3rem;
+    
+}
+.bto{
+    width: 80px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black{
+    border: none;
+    color: black;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+      background-color:lightgrey;   
+}
+.add{
+    border: none;
+    color: black;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    color: sandybrown; 
+    border:1px solid sandybrown;
+    height:18px;
+    align-items: center;
+}
+.ok:hover{
+    background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
